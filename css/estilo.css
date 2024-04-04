@@ -5,4 +5,64 @@
     box-sizing: border-box;
     font-family: sans-serif;
     text-decoration: none;
+    color: #3c184e;
+}
+.banner{
+    background-image: url(../assets/img/banner-topo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    width:100vw;
+    height: auto;
+    padding: 120px 80px;
+}
+
+.logotipo{
+    max-width: 250px;
+    font-weight: 700;
+    color: #3c184e
+}
+.logo img{
+    width: 30px;
+    margin-right: 5px;
+}
+.logo{
+    font-size: 35px;
+    margin:0 0 5px 0;
+}
+
+ div .slogan{
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+.titulo{
+    background-color: #ffffffc4;
+    max-width: 1024px;
+    padding:40px;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    box-shadow:0 0 5px 2px #0000005c;
+}
+.titulo h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 100px;
+    padding-bottom: 25px;
+}
+.titulo a{
+    background-position: center;
+    width: 200px;
+    padding:10px 25px;
+    margin-left: 43%;
+    background-color: #3c184e;
+    color:#ffffff;
+    padding:10px;
+    border-radius: 5px;
+}
+.titulo a img{
+    width:20px;
 }
