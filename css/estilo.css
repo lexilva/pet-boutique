@@ -6,14 +6,13 @@
     font-family: sans-serif;
     text-decoration: none;
     color: #3c184e;
+    
 }
 .banner{
     background-image: url(../assets/img/banner-topo.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: cover;
-    width:100vw;
-    height: auto;
     padding: 120px 80px;
 }
 
@@ -27,7 +26,7 @@
     margin-right: 5px;
 }
 .logo{
-    font-size: 35px;
+    font-size: 33px;
     margin:0 0 5px 0;
 }
 
@@ -40,17 +39,17 @@
     background-color: #ffffffc4;
     max-width: 1024px;
     padding:40px;
-    margin-top: 70px;
+    margin-top: 140px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 5px;
     box-shadow:0 0 5px 2px #0000005c;
 }
 .titulo h1{
-    font-size: 40px;
+    font-size: 48px;
     text-align: center;
     font-weight: 700;
-    padding: 10px 100px;
+    padding: 10px 120px;
     padding-bottom: 25px;
 }
 .titulo a{
