@@ -12,8 +12,8 @@
     background-image: url(../assets/img/banner-topo.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     padding: 120px 80px;
+    width:100%
 }
 
 .logotipo{
@@ -43,12 +43,12 @@
     margin-right: auto;
     margin-left: auto;
     border-radius: 5px;
-    box-shadow:0 0 5px 2px #0000005c;
+    box-shadow:0 0 32px  #1f26875e;
 }
 .titulo h1{
-    font-size: 48px;
+    font-size: 46px;
     text-align: center;
-    font-weight: 700;
+    font-weight:800;
     padding: 10px 120px;
     padding-bottom: 25px;
 }
@@ -64,4 +64,117 @@
 }
 .titulo a img{
     width:20px;
+}
+.serviços{
+    width:100%;
+    padding: 120px 80px;
+}
+h3{
+    font-size: 36px;
+    color:#3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.lista{
+    max-width: 760px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    color: #3c184e;
+    line-height: 20px;
+}
+span{
+    font-style: italic;
+    font-weight: 700;
+}
+ul li{
+    font-size: 20px;
+    margin:0 0 20px 0;
+}
+.imagens{
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+.imagens img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+.faixas{
+    padding:120px 80px;
+    background-color: #3c184e;
+    align-items: center;
+    text-align: center;  
+}
+.faixas p{
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+.faixas p span{
+    color: #ffffff;
+}
+.faixas div a img{
+    margin:0 20px;
+    width:50px;
+    height: 50px;
+}
+.marcas{
+    width:100%;
+    padding:120px 80px;
+}
+.marcas h3{
+    font-size: 35px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.marcas .container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container img{
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+.localizacao{
+    width: 100%;
+    padding: 120px 80px;
+    align-items: center;
+}
+.localizacao h3{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.localizacao p{
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.localizacao iframe{
+    width: 800px;
+    height: 450px;
+   margin-left: 25%;
+}
+.rodape{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #3c184e;
+}
+.rodape p{
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+}
+.rodape p a{
+    color: #ffffff;
 }
